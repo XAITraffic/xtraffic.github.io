@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+  <!--  <script src="./assets/js/color-modes.js"></script> -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.122.0">
+  <title>Cheatsheet · Bootstrap v5.3</title>
+
+  <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="cheatsheet.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-fluid text-center my-5 me-1">
+    <h1 class=" display-1">XTraffic: A Dataset Where Traffic Meets Incidents
+      with Explainability and More
+    </h1>
+    <p class="lead my-3">Xiaochuan Gou1∗, Ziyue Li2∗∗
+      , Tian Lan3, Junpeng Lin3, Zhishuai Li4,
+      Bingyu Zhao5, Chen Zhang3, Di Wang1, Xiangliang Zhang1,6
+      1King Abdullah University of Science and Technology, Saudi Arabia
+      2University of Cologne, Germany
+      3Tsinghua University, China
+      4Institute of Automation, Chinese Academy of Sciences, China
+      5Technical University of Vienna, Austria</p>
+  </div>
+
+  <div class="container-fluid align-items-center">
+    <div class="d-flex justify-content-center m-0 border-0">
+      <span class="mx-2">
+        <button type="button" class="btn btn-dark ml-1">A</button>
+      </span>
+      <span class="mx-2">
+        <button type="button" class="btn btn-dark ml-1">B</button>
+      </span>
+      <span class="mx-2">
+        <button type="button" class="btn btn-dark ml-1">C</button>
+      </span>
+      <span class="mx-2">
+        <button type="button" class="btn btn-dark ml-1">D</button>
+      </span>
+      <span class="mx-2">
+        <button type="button" class="btn btn-dark ml-1">E</button>
+      </span>
+    </div>
+  </div>
+
+  <content class="bg-body-teritary">
+    <aside class="bd-aside sticky-xl-top text-body-secondary align-self-start mb-3 mb-xl-5 px-2">
+      <h2 class="h6 pt-4 pb-3 mb-4 border-bottom">On this page</h2>
+      <nav class="small" id="toc">
+        <ul class="list-unstyled">
+          <li class="my-2">
+            <button type="button" class="btn d-inline-flex align-items-center collapsed border-0"
+              data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#contents-collapse"
+              aria-controls="contents-collapse">Contents</button>
+            <ul class="list-unstyled ps-3 collapse" id="contents-collapse">
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                  href="#typography">Typography</a></li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#images">Images</a>
+              </li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#tables">Tables</a>
+              </li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#figures">Figures</a>
+              </li>
+            </ul>
+          </li>
+          <li class="my-2">
+            <button type="button" class="btn d-inline-flex align-items-center collapsed border-0"
+              data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#forms-collapse"
+              aria-controls="forms-collapse">Forms</button>
+            <ul class="list-unstyled ps-3 collapse" id="forms-collapse">
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#overview">Overview</a>
+              </li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                  href="#disabled-forms">Disabled forms</a></li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#sizing">Sizing</a>
+              </li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#input-group">Input
+                  group</a></li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                  href="#floating-labels">Floating labels</a></li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                  href="#validation">Validation</a></li>
+            </ul>
+          </li>
+          <li class="my-2">
+            <button type="button" class="btn d-inline-flex align-items-center collapsed border-0"
+              data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#components-collapse"
+              aria-controls="components-collapse">Components</button>
+            <ul class="list-unstyled ps-3 collapse" id="components-collapse">
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                  href="#accordion">Accordion</a></li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#alerts">Alerts</a>
+              </li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#badge">Badge</a>
+              </li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                  href="#breadcrumb">Breadcrumb</a></li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#buttons">Buttons</a>
+              </li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#button-group">Button
+                  group</a></li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#card">Card</a></li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#carousel">Carousel</a>
+              </li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                  href="#dropdowns">Dropdowns</a></li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#list-group">List
+                  group</a></li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#modal">Modal</a>
+              </li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#navs">Navs</a></li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#navbar">Navbar</a>
+              </li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                  href="#pagination">Pagination</a></li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#popovers">Popovers</a>
+              </li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#progress">Progress</a>
+              </li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                  href="#scrollspy">Scrollspy</a></li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#spinners">Spinners</a>
+              </li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#toasts">Toasts</a>
+              </li>
+              <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#tooltips">Tooltips</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <div class="bd-cheatsheet container-fluid bg-body">
+      <section id="Introduction">
+        <h2 class="sticky-xl-top fw-bold pt-3 pt-xl-5 pb-2 pb-xl-3">Introduction</h2>
+
+        <article class="my-3" id="intro-abstract">
+          <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+            <h3>Abstract</h3>
+          </div>
+
+          <div class="bd-code-snippet">
+            <div class="bd-example m-0 border-0">
+              <p class="lead">
+                Abstract content. Abstract content. Abstract content. Abstract content.
+                Abstract content. Abstract content. Abstract content. Abstract content.
+                Abstract content. Abstract content. Abstract content. Abstract content.
+                Abstract content. Abstract content. Abstract content. Abstract content.
+                Abstract content. Abstract content. Abstract content. Abstract content.
+                Abstract content. Abstract content. Abstract content. Abstract content.
+                Abstract content. Abstract content. Abstract content. Abstract content.
+                Abstract content. Abstract content. Abstract content. Abstract content.
+                Abstract content. Abstract content. Abstract content. Abstract content.
+                Abstract content. Abstract content. Abstract content. Abstract content.
+                Abstract content. Abstract content. Abstract content. Abstract content.
+                Abstract content. Abstract content. Abstract content. Abstract content.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="my-3" id="intro-image">
+          <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+            <h3>Intro Image</h3>
+          </div>
+
+          <div class="bd-code-snippet">
+            <figure class="figure">
+              <img class="img-fluid" width="100%" src="./images/intro.png">
+              <figcaption class="" figure-caption>
+                Caption for the above image.
+              </figcaption>
+            </figure>
+
+            <figure class="figure">
+              <img class="img-fluid" width="100%" src="./images/intro.png">
+              <figcaption class="" figure-caption>
+                Caption for the above image.
+              </figcaption>
+            </figure>
+
+          </div>
+        </article>
+      </section>
+
+      <section id="Detail">
+        <h2 class="sticky-xl-top fw-bold pt-3 pt-xl-5 pb-2 pb-xl-3">Detail</h2>
+
+        <article class="my-3" id="detail-tables">
+          <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+            <h3>Tables</h3>
+          </div>
+
+          <div>
+            <div class="bd-code-snippet">
+              <div class="m-0 border-0">
+                <table class="table table-sm table-bordered">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">First</th>
+                      <th scope="col">Last</th>
+                      <th scope="col">Handle</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td colspan="2">Larry the Bird</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="bd-code-snippet">
+              <div class="m-0 border-0">
+                <table class="table table-sm table-bordered">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">First</th>
+                      <th scope="col">Last</th>
+                      <th scope="col">Handle</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td colspan="2">Larry the Bird</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="bd-code-snippet">
+              <div class="m-0 border-0">
+                <table class="table table-sm table-bordered">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">First</th>
+                      <th scope="col">Last</th>
+                      <th scope="col">Handle</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td colspan="2">Larry the Bird</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="appendix">
+        <h2 class="sticky-xl-top fw-bold pt-3 pt-xl-5 pb-2 pb-xl-3">Appendix</h2>
+
+        <article>
+          <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+            <h3>References</h3>
+          </div>
+
+          <div>
+            <div class="bd-code-snippet">
+              <p>Content A</p>
+            </div>
+
+            <div class="bd-code-snippt">
+              <p>Content B</p>
+            </div>
+          </div>
+
+        </article>
+
+        <article>
+          <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+            <h3>Other appendix information</h3>
+          </div>
+
+          <div>
+            <div class="bd-code-snippet">
+              <p>Content A</p>
+            </div>
+
+            <div class="bd-code-snippt">
+              <p>Content B</p>
+            </div>
+          </div>
+
+        </article>
+      </section>
+
+      <section id="license">
+        <h2 class="sticky-xl-top fw-bold pt-3 pt-xl-5 pb-2 pb-xl-3">License</h2>
+
+        <article>
+          <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+            <h3>MIT</h3>
+          </div>
+
+          <div>
+            <div class="bd-code-snippet">
+              <div>
+                <p>
+                  Copyright (c) 2024 XAITraffic
+
+                  Permission is hereby granted, free of charge, to any person obtaining a copy
+                  of this software and associated documentation files (the "Software"), to deal
+                  in the Software without restriction, including without limitation the rights
+                  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                  copies of the Software, and to permit persons to whom the Software is
+                  furnished to do so, subject to the following conditions:
+
+                  The above copyright notice and this permission notice shall be included in all
+                  copies or substantial portions of the Software.
+
+                  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+                  SOFTWARE.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </div>
+  </content>
+
+</body>
+
+</html>
